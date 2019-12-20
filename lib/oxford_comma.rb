@@ -1,10 +1,12 @@
 def oxford_comma(array)
-  if(array.length > 1)
+  if(array.length == 1)
+    return array[0]
+  elsif(array.length == 2)
+    return array[0] + " and " + array[2]
+  else
     formatted = array
     formatted[-1] = "and " + formatted.last
     return array.join(", ")
-  else
-    return array[0]
   end
 end
 
