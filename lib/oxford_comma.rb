@@ -4,8 +4,7 @@ def oxford_comma(array)
   elsif(array.length == 2)
     return "#{array[0]} and #{array[1]}"
   end
-  formatted = array
-  array[-1] = "and #{formatted.last}"
+  array[-1] = "and #{array.last}"
   return array.join(", ")
 end
 
