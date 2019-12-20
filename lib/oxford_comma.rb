@@ -10,7 +10,7 @@ def oxford_comma(array)
   end
 end
 
-puts oxford_comma(["fiddleheads","okra","kohlrabi"])
-puts oxford_comma(["fiddleheads","okra","kohlrabi","junk"])
-puts oxford_comma(["fiddleheads","okra"])
-puts oxford_comma(["fiddleheads"])
+# puts oxford_comma(["fiddleheads","okra","kohlrabi"])
+# puts oxford_comma(["fiddleheads","okra","kohlrabi","junk"])
+# puts oxford_comma(["fiddleheads","okra"])
+# puts oxford_comma(["fiddleheads"])
